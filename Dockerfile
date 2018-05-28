@@ -1,5 +1,11 @@
 FROM php:7.2.5-fpm
 
+MAINTAINER Victor Hugo Brito Fernandes <victorhbfernandes@gmail.com>
+ARG VCS_REF
+LABEL org.label-schema.vcs-ref=$VCS_REF \
+      org.label-schema.vcs-url="https://github.com/victorhbfernandes/php-fpm-oracle"
+
+
 RUN apt-get update && apt-get -y install wget bsdtar libaio1 && \
  wget -qO- https://raw.githubusercontent.com/caffeinalab/php-fpm-oci8/master/oracle/instantclient-basic-linux.x64-12.2.0.1.0.zip | bsdtar -xvf- -C /usr/local && \
  wget -qO- https://raw.githubusercontent.com/caffeinalab/php-fpm-oci8/master/oracle/instantclient-sdk-linux.x64-12.2.0.1.0.zip | bsdtar -xvf-  -C /usr/local && \

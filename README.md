@@ -1,7 +1,7 @@
 ## PHP FPM Oracle
 
-[![](https://images.microbadger.com/badges/image/victorhbfernandes/php-fpm-oracle-nginx:latest.svg)](https://microbadger.com/images/victorhbfernandes/php-fpm-oracle-nginx:latest "Latest")
-[![](https://images.microbadger.com/badges/version/victorhbfernandes/php-fpm-oracle-nginx:latest.svg)](https://microbadger.com/images/victorhbfernandes/php-fpm-oracle-nginx:latest "Latest")
+[![](https://images.microbadger.com/badges/image/victorhbfernandes/php-fpm-oracle-nginx:latest.svg)](https://microbadger.com/images/victorhbfernandes/php-fpm-oracle-nginx:latest "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/victorhbfernandes/php-fpm-oracle-nginx:7.2.5.svg)](https://microbadger.com/images/victorhbfernandes/php-fpm-oracle-nginx:7.2.5 "Get your own version badge on microbadger.com")
 
 ### Image Contents:
 1. PHP-FPM
