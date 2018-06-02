@@ -3,7 +3,7 @@ FROM php:7.2.5-fpm
 MAINTAINER Victor Hugo Brito Fernandes <victorhbfernandes@gmail.com>
 ARG VCS_REF
 LABEL org.label-schema.vcs-ref=$VCS_REF \
-      org.label-schema.vcs-url="https://github.com/victorhbfernandes/php-fpm-oracle"
+      org.label-schema.vcs-url="https://github.com/vhbfernandes/php-fpm-oracle"
 
 
 RUN apt-get update && apt-get -y install wget bsdtar libaio1 && \
